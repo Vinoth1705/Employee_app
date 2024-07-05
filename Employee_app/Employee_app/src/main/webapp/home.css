@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+*
+{
+		padding: 0px;
+		margin: 0px;
+		box-sizing: border-box;
+}
+body
+{
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	margin-left:100px;
+	background-image:url("360_F_419307247_5kxFrbl2sZYHsEGgnKaJ9Fz4bI9qIWME.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 100vh;
+	width: 100%;
+	flex-direction: column;
+}
+div
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction:column ;
+	width: 200px;
+	height:200px;
+		
+}
+a
+{
+	margin-bottom: 20px;
+	text-decoration: none;
+	color:#F0E9D6;
+	font-size: 33px;
+	background-color:#2B60DE;
+	padding: 12px;
+	
+}

@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+
+*
+{
+		padding: 0px;
+		margin: 0px;
+		box-sizing: border-box;
+}
+body
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image:url("download.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 100vh;
+	width: 100%;
+	flex-direction: column;
+}
+table
+{
+	border-collapse: collapse;
+	border: 1px solid black;
+	
+}
+th,tr,td
+{
+	color:#fff;
+	border: 1px solid #81D8D0;
+	table-layout: fixed;
+	text-align: center;
+	width: 170px;
+	height:60px;
+	font-size: 20px;
+}
+#name
+{
+	width: 200px;
+}
+a
+{
+	text-decoration: none;
+	color:#B041FF;
+}
